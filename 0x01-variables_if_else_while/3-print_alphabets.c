@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
 * main - lowercase and uppercase
 *
-* Return: Always (Success)
+* Return: Always(Success)
 */
 int main(void)
 {
