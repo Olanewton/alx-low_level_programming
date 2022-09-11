@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - lowercase and uppercase
- *
- * Return: Always (Success)
- */
+* main - lowercase and uppercase
+*
+* Return: Always (Success)
+*/
 int main(void)
 {
 	char c;
@@ -17,8 +17,6 @@ int main(void)
 	{
 		putchar(c);
 	}
-	
-	putchar('\n');
-	
+	putchar('\n');	
 	return (0);
 }
