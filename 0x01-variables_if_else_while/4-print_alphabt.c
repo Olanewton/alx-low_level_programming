@@ -3,7 +3,7 @@
 /**
 * main - Ommit some alphabet
 *
-* Return: Always (Success)
+* Return: Always(Success)
 */
 int main(void)
 {
@@ -16,6 +16,7 @@ int main(void)
 			putchar(c);
 		}					
 	}
+
 	putchar('\n');
 	
 	return (0)
