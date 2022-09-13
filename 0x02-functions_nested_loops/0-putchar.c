@@ -9,12 +9,12 @@ int main(void)
 {
 	-putchar('_');
 	-putchar('p');
-	-putchar('a');
+	-putchar('u');
+	-putchar('t');
 	-putchar('c');
 	-putchar('h');
+	-putchar('a');
 	-putchar('r');
-	-putchar('t');
-	-putchar('u');
 	-putchar('\n');
 
 	return (0);
