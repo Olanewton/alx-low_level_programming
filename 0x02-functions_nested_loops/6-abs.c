@@ -6,14 +6,14 @@
  * @n: The int needed to print the function
  * Return: Always 0.
  */
-int _abs(int j)
+int _abs(int n)
 {
-	if (j > 0 || j == 0)
+	if (n > 0 || n == 0)
 	{
-		return (j);
+		return (n);
 	}
 	else
 	{
-		return (j * -1);
+		return (n * (-1));
 	}
 }
