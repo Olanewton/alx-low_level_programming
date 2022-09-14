@@ -24,7 +24,7 @@ int main(void)
 		}
 		l= j + k;
 		j = k;
-		k = l
+		k = l;
 	}
 
 	return (0);
