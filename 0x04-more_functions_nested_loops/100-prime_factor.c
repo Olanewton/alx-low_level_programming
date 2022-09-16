@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "main.h"
+#include <stdio.h>i
 
 /**
  *main - prints the largest prime factor
@@ -20,10 +19,13 @@ int main(void)
 			number /= 2;
 			continue;
 		}
+
 		for (inc = 3; inc < number / 2; inc += 2)
 		{
 			if (number % inc == 0)
 				number /= inc;
 		}
 	}
+	printf("%ld\n", number);
+	return (0);
 }
