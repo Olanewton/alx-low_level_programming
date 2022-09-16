@@ -4,35 +4,35 @@
 /**
  * main - program that prints either number
  * or fizz or buzz or fizzbuzz
- *
- *
- * Return: returns 0
+ * Return: Always 0
  */
 
 int main(void)
 {
-	int num = 1;
+	int i;
 
-	while (num++ < 100)
+	for (i = 1; <= 100; i++)
 	{
-		if ((num % 3 == 0) && (num % 5 == 0))
+		if (i % 3 == 0 && i % 5 != 0)
 		{
-			printf("fizzbuzz ");
+			printf("fizz");
+		} else if (i % 5 == 0 && i % 3 != 0)
+		{
+			printf("buzz");
+		} else if (i % 3 == 0 && i % 5 == 0)
+		{
+			printf("fizzbuzz");
 		}
-		else if ((num % 3) == 0)
-		{
-			printf("fizz ");
-		}
-		else if ((num % 5) == 0)
-		{
-			if (num != 100)
+		else if (i == 1)
 			{
-				printf("buzz ");
+				printf("%d", i);
 			}
-			else
+		else
 			{
-				printf("buzz ");
+				printf(" %d", i);
 			}
-		}
 	}
+	printf("\n");
+
+	return (0);
 }
