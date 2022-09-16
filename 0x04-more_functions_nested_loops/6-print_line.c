@@ -1,10 +1,10 @@
-#include <stdio.h
-#include "main.h">
+#include <stdio.h>
+#include "main.h"
 
 /**
  *print_line - print a straight line
  *@n: parameter
- *Returnn:returns nothing
+ *Return: nothing
  */
 
 void print_line(int n)
