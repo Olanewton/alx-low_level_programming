@@ -13,7 +13,7 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int i = 0, diff = 0 :
+	int i = 0, diff = 0;
 
 	while (1)
 	{
@@ -31,8 +31,7 @@ int _strcmp(char *s1, char *s2)
 		}
 		else if (s1[i] != s2[i])
 		{
-			diff = s1[i] - s2[]
-	result = strcmp(s1, s2)i;
+			diff = s1[i] - s2[i]
 			break;
 		}
 		else
