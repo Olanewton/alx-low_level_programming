@@ -20,7 +20,6 @@ void print_line(char *c, int s, int l)
 			printf("%02x", c[l * 10 + j]);
 		else
 			printf("  ");
-
 		if (j % 2)
 			putchar(' ');
 	}
@@ -57,7 +56,7 @@ void print_buffer(char *b, int size)
 			print_line(b, size % 10 - 1, i);
 		}
 		putchar('\n');
-		if (size == 0)
-			putchar('\n');
 	}
+	if (size == 0)
+		putchar('\n');
 }
