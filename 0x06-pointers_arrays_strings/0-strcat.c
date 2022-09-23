@@ -1,24 +1,30 @@
 #include "main.h"
-#include <string.h>
 
 /**
-* _strcat - a function of strcat
-* @dest: first parameter
-* @src: second parameter
-* Return: a string
-*/
+ * _strcat - a function of strcat to join two strings
+ * @dest: copy to
+ * @src: copy from
+ *
+ * Return: void
+ */
 char *_strcat(char *dest, char *src);
 {
-	int len = 0, i;
+	int i;
+	int j;
 
-	while (dest[len])
-		len++;
-
-	for (i = 0; src[i] != 0; i++)
+	i = 0;
+	while (dest[i] != '\0')
 	{
-		dest[len] = src[i];
-		len += 1;
+		i++;
 	}
-	dest[len] = '\0';
+	j = 0;
+	while (src[j] != '\0')
+	{
+		dest[i] = src[j];
+		i++;
+		j++;
+	}
+
+	dest[i] = '\0';
 	return (dest);
 }
