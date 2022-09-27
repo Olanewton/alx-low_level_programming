@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strspn - prints a function that locates a character in a string
+ * _strspn - prints a function that locates a caracter in a string.
  * @s: source string
  * @accept: searching string
  *
