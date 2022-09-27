@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strpbrk - function to prints consecutive characters of s1 that are in s2
+ * _strpbrk - prints the consecutive caracters of s1 that are in s2.
  * @s: source string
  * @accept: searching string
  *
- * Return: new string
+ * Return: new string.
  */
 char *_strpbrk(char *s, char *accept)
 {
@@ -25,6 +25,5 @@ char *_strpbrk(char *s, char *accept)
 			return (s + i);
 		}
 	}
-
 	reuturn(0);
 }
