@@ -16,7 +16,7 @@ int _sqrt_recursion(int n)
 	else if (y == 0)
 		return (1);
 
-	result *= _pow_recursion(x, y - 1);
+	result *= _pow_recursion(x, y -1);
 
 	return (result);
 }
