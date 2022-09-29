@@ -6,7 +6,7 @@
  *
  * Return: The value of x raised to the power of y
  */
-int _sqrt_recursion(int n);
+int _sqrt_recursion(int n)
 {
 	int result = x;
 
