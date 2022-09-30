@@ -6,7 +6,7 @@
  *
  *Return: 0 if not prime, 1 if prime
  */
-int helperFunction(int num, int 1);
+int helperFunction(int num, int i)
 {
 	if (i < num)
 	{
