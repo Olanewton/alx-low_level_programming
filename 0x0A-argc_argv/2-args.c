@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - program that prints all arguments
+ * main - program that prints name
  * @argc: Count arguments
  * @argv: Arguments
  *
@@ -11,18 +11,18 @@
 
 int main(int argc, char *argv[])
 {
+	/*Declaring variables*/
+	int count = 0;
 
-/*Declaring variables*/
-int count = 0;
+	if (argc > 0)
+	{
+		/*WHILE - Print each arguments*/
+		while (count < argc)
+		{
+			printf("%s\n", argv[count]);
+			count++;
+		}
+	}
 
-if (argc > 0)
-{
-/*WHILE - Print each arguments*/
-while (count < argc)
-{
-printf("%s\n", argv[count]);
-count++;
-}
-}
-Return (0);
+	Return (0);
 }
