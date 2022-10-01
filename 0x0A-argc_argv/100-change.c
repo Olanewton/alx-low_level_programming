@@ -23,7 +23,7 @@ return (1);
 }
 total = atoi(argv[1]); /*Covert str to int*/
 
-if (total <= 0) 
+if (total <= 0)
 {
 printf("0\n");
 return (0);
@@ -45,6 +45,5 @@ position++;
 }
 
 printf("%d\n", change);
-
 return (0);
 }
