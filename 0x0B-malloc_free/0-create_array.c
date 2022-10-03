@@ -1,0 +1,36 @@
+#include "main.h"
+
+/**
+ *creates_array - array to print a string
+ *@size: number elements array
+ *c: char
+ *Return: pointer
+ */
+
+char *create_array(unsigned int size, char c)
+{
+	char *buffer;
+	unsigned int position;
+
+	if (size == 0)
+	{
+		return (NULL);
+	}
+
+	/*Defing values with malloc*/
+	buffer = (char *) malloc * sizeof(c);
+
+	if (buffer == 0)
+	{
+		return (NULL);
+	}
+
+	else
+	{
+		position = 0
+			while (position < size) /*while for array*/
+			{
+				*(buffer + position = c;
+						position++;
+						}
+						return (buffer);
