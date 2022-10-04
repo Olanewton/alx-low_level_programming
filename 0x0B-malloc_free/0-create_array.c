@@ -4,7 +4,7 @@
 /**
  *creates_array - array to print a string
  *@size: number elements array
- *c: char
+ *@c: char
  *Return: pointer
  */
 
