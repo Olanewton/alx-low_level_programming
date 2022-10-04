@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  *creates_array - array to print a string
@@ -30,7 +31,7 @@ char *create_array(unsigned int size, char c)
 	position = 0;
 	while (position < size) /*while for array*/
 	{
-		*(buffer + position = c;
+		*(buffer + position = c);
 		position++;
 	}
 	return (buffer);
