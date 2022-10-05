@@ -16,7 +16,7 @@ int word_len(char *str)
 {
 	int index = 0, len = 0;
 
-	while (*(str + index) && *(str + index) !=   )
+	while (*(str + index) && *(str + index) != ' ')
 	{
 		len++;
 		index++;
@@ -40,7 +40,7 @@ int count_words(char *str)
 
 	for (index = 0; index < len; index++)
 	{
-		if (*(str + index) !=   )
+		if (*(str + index) != ' ')
 		{
 			words++;
 			index += word_len(str + index);
@@ -70,7 +70,7 @@ char **strtow(char *str)
 		return (NULL);
 	for (w = 0; w < words; w++)
 	{
-		while (str[index] ==   )
+		while (str[index] == ' ')
 			index++;
 		letters = word_len(str + index);
 
