@@ -25,10 +25,5 @@ char *_strpbrk(char *s, char *accept)
 			return (s + i);
 		}
 	}
-<<<<<<< HEAD
-
-	reuturn(0);
-=======
 	return (0);
->>>>>>> 752e8ad3088c7f2f4f4d636797a2e95b47819b81
 }
