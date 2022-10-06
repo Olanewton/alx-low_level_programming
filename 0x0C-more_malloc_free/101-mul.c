@@ -17,10 +17,11 @@ int _atoi_digit(char x)
 }
 
 /**
- * _isNumber - Define if a string is a number.
- * @argv: Pointer to string.
- * Return: success (0).
+ * _isNumber - Define if a string is a number
+ * @argv: Pointer to string
+ * Return: success (0)
  */
+
 int _isNumber(char *argv)
 {
 	int i;
@@ -32,10 +33,10 @@ int _isNumber(char *argv)
 }
 
 /**
- *_calloc - allocate array of size * nmemb.
- * @nmemb: number of elements.
- * @size: size of element.
- * Return: pointer to array.
+ *_calloc - allocate array of size * nmemb
+ * @nmemb: number of elements
+ * @size: size of element
+ * Return: pointer to array
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
@@ -87,11 +88,13 @@ void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
 
 	return (a3);
 }
+
 /**
  * print_array - print all digits of array.
  * @nb: number of elements to print.
  * @a: array of elements.
  */
+
 void print_array(char *a, int nb)
 {
 	int i = 0;
@@ -147,5 +150,6 @@ int main(int argc, char *argv[])
 	print_array(tabres, lenres);
 	free(tabres);
 	exit(EXIT_SUCCESS);
+
 	return (0);
 }
