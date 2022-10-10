@@ -8,7 +8,7 @@
   *
   *Return: NULL if fail.
   */
-dog_t *new_dog(char *name, float age, char *owner)
+dog_t *new_dog(char *name, float *age, char *owner)
 {
 	int i, lenN, lenO;
 
@@ -31,6 +31,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (n_dog->name == NULL)
 	{
 		free(n_dog->name);
+		free(n_dog->owner);
 		free(n_dog);
 		return (NULL);
 	}
