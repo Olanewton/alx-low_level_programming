@@ -13,15 +13,15 @@ void print_all(const char * const format, ...)
 	va_list argis;
 	unsigned int i = 0, j, c = 0;
 	char *str;
-	const char k_arg[] = "cifs";
+	const char t_arg[] = "cifs";
 
 	va_start(argis, format);
 	while (format && format[i])
 	{
 		j = 0;
-		while (k_arg[j])
+		while (t_arg[j])
 		{
-			if (format[i] == k_arg[j] && c)
+			if (format[i] == t_arg[j] && c)
 			{
 				printf(",");
 				break;
