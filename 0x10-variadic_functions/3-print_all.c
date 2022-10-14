@@ -6,7 +6,7 @@
  * print_all - prints anything
  * @format: a list of  types arguments passed to the function
  * Return: void
- */ 
+ */
 void print_all(const char * const format, ...)
 {
 	va_list valist;
@@ -33,7 +33,7 @@ void print_all(const char * const format, ...)
 			break;
 		case 'i':
 			printf("%d", va_arg(valist, int)), c = 1;
-			break; 
+			break;
 		case 'f':
 			printf("%f", va_arg(valist, double)), c = 1;
 			break;
@@ -48,6 +48,6 @@ void print_all(const char * const format, ...)
 			break;
 
 			} i++;
-		} 
-		printf("\n"), va_end(valist);
+	}
+	printf("\n"), va_end(valist);
 }
